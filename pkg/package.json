@@ -1,0 +1,19 @@
+{
+  "name": "@haam909/ci-dummy-pkg",
+  "version": "0.0.0",
+  "description": "Throwaway package for exercising Haam909/ci-workflows.",
+  "main": "index.js",
+  "files": ["index.js"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Haam909/ci-dummy.git",
+    "directory": "pkg"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "license": "UNLICENSED"
+}
