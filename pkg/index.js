@@ -1,5 +1,6 @@
 'use strict';
 
+// Returns a plus b.
 function add(a, b) {
   return a + b;
 }
