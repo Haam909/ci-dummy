@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "Throwaway package for exercising Haam909/ci-workflows.",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "node --test"
   },
@@ -15,5 +17,9 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "keywords": [
+    "ci",
+    "example"
+  ]
 }
